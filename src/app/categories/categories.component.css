@@ -1,0 +1,57 @@
+*{
+  overflow-x: hidden;
+  padding: 0 auto;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.main{
+  background-color: #d1d1d1;
+  width: 100%;
+  height: 100%;
+  padding-left: 16rem;
+  padding-top: 5rem;
+}
+
+.one{
+  background-image: url("../../assets/cartao.png");
+  background-size: cover;
+}
+
+.ccard {
+  height: 15rem;
+  width: 22rem;
+  margin-bottom: 1rem;
+  background-color: whitesmoke;
+  border-radius: 1rem;
+}
+
+.container{
+  width: 95vw;
+  height: 16rem;
+  display: flex;
+}
+
+.balance{
+  width: 80vw;
+  height: 20rem;
+  display: flex;
+  border: 2px outset gray;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  padding: .5rem;
+}
+
+.bgraph{
+  width: calc(77vw/5*3);
+  border: 2px outset gray;
+  border-radius: 1rem;
+  padding: .5rem;
+}
+
+.extract{
+  width: calc(77vw/5*2);
+  border: 2px outset gray;
+  border-radius: 1rem;
+  padding: .5rem;
+}
